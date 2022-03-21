@@ -1,3 +1,6 @@
+# Task 1
+
+#v1
 # optimized (complexity: O(const)) 
 n = 1_000_000_002 
 
@@ -14,13 +17,18 @@ sum_7 = ((27 + 999_999_987)*i)//2 #arithmetic summary
 sum_4 = ((24 + 999_999_984)*j)//2 #arithmetic summary
 
 final = sum3 - (sum_7+sum_4) # final equation
-
-
-#long
-#sum([i for i in range(1, 1_000_000_003, 3) if i%10!=4 and i%10!=7])
-
+#Output:
 #133333334466666672
 
+#long 
+#v2
+sum([i for i in range(1, 1_000_000_003, 3) if i%10!=4 and i%10!=7])
+#Output:
+#133333334466666672
+
+
+
+#v3
 def arithmetic_series_sum(first_: int,  last_: int, n_: int) -> int:
     """Арифметическая прогрессия от first_ до last_ c колличеством элеме n_."""
     return n_ * (first_ + last_) // 2
@@ -54,3 +62,10 @@ if __name__ == "__main__":
     s_3 = sum_periodic_numbers(max_number, 30, 27)
  
     print(s_1 - s_2 - s_3)
+ 
+#Output:
+#133333334466666672
+
+
+
+    
