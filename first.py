@@ -1,3 +1,7 @@
+
+#Task #1
+
+
 # optimized (complexity: O(const)) 
 n = 1_000_000_002 
 
@@ -21,6 +25,8 @@ final = sum3 - (sum_7+sum_4) # final equation
 
 #133333334466666672
 
+
+#v3
 def arithmetic_series_sum(first_: int,  last_: int, n_: int) -> int:
     """Арифметическая прогрессия от first_ до last_ c колличеством элеме n_."""
     return n_ * (first_ + last_) // 2
